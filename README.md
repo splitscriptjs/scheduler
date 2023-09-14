@@ -8,7 +8,7 @@
 
 Package for scheduling events
 
-[![install size](https://packagephobia.com/badge?p=@splitscript.dujs/scheduler)](https://packagephobia.com/result?p=@splitscript.js/scheduler) [![downloads](https://img.shields.io/npm/dm/@splitscript.js/scheduler?color=90ee90&style=flat)](https://www.npmjs.com/package/@splitscript.js/scheduler)
+[![install size](https://packagephobia.com/badge?p=@splitscript.js/scheduler)](https://packagephobia.com/result?p=@splitscript.js/scheduler) [![downloads](https://img.shields.io/npm/dm/@splitscript.js/scheduler?color=90ee90&style=flat)](https://www.npmjs.com/package/@splitscript.js/scheduler)
 
 <a href='https://splitscript.js.org/scheduler' style='text-decoration:none;'>
 
@@ -54,6 +54,31 @@ import scheduler from '@splitscript.js/scheduler'
 scheduler.start()
 ```
 
+### Create a scheduler
+
+Create a file in your functions/scheduler folder like...
+
+```
+functions/
+	scheduler/
+		0.5m - 30 seconds
+		1s - every second
+		1h - hourly
+		1d - daily
+```
+
+And export a function:
+
+```ts
+export default function () {
+	console.log('this is a scheduled event')
+}
+// or
+module.exports = async function () {
+	console.log('this is a scheduled event')
+}
+```
+
 ### Schedule once
 
 ```ts
@@ -68,6 +93,6 @@ For more, go to [the docs](https://splitscript.js.org/scheduler)
 
 <div align="center">
 
-<sub><code>v1.0.0</code> | by [ultraviolet](https://github.com/ultravioletasdf)</sub>
+<sub><code>v1.0.1</code> | by [ultraviolet](https://github.com/ultravioletasdf)</sub>
 
 </div>

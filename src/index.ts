@@ -43,5 +43,5 @@ async function schedule(time: string, func: () => any) {
 	setTimeout(func, ms)
 }
 
-export { start, schedule }
+export { schedule, start }
 export default { start, schedule }
