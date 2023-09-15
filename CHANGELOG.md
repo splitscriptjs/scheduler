@@ -1,3 +1,7 @@
+# 1.0.2
+
+Check if listeners exists before iterating
+
 # 1.0.1
 
 Upgrade `@splitscript.js/core` version

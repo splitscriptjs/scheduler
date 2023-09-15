@@ -10,7 +10,7 @@ async function start() {
 	])
 
 	const listeners = await emitter.listeners()
-
+	if (!listeners) return
 	for (let listener of listeners) {
 		const name = listener.event[0]
 		if (!name) continue

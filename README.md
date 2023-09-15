@@ -93,6 +93,6 @@ For more, go to [the docs](https://splitscript.js.org/scheduler)
 
 <div align="center">
 
-<sub><code>v1.0.1</code> | by [ultraviolet](https://github.com/ultravioletasdf)</sub>
+<sub><code>v1.0.2</code> | by [ultraviolet](https://github.com/ultravioletasdf)</sub>
 
 </div>
